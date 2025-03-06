@@ -188,7 +188,7 @@ namespace CrudOperationsConsoleApp
                 Console.Write("Class: ");
                 string classInput = Console.ReadLine();
                 stu.Class = string.IsNullOrEmpty(classInput) ? stu.Class : Convert.ToInt32(classInput);
-                //Console.WriteLine("Invalid input. Please enter a valid integer for class.");
+    
                     
                 Console.Write("School Name: ");
                 string schoolName = Console.ReadLine();
